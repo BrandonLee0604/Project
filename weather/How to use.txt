@@ -1,0 +1,17 @@
+1. Setup
+	1) Push the code from Github, or download and unzip the project folder to your local
+	2) Install npm
+	3) Open the code as a project
+	4) Go into 'weather' folder, open terminal and enter 'npm install', then 'npm start'
+	5) Then you can go to 'localhost: 3000' to play around this app
+
+2. How to use
+	1) The App will require your permission to fetch your current location information. Please choose 'allow' when your browser alert you to get the permission
+
+	2) The when the app get first rendered it will show the weather forecast in your area
+
+	3) Or you can search a city in the left top corner to get the local weather forecast
+
+	4) The app will show as 3 parts: Current weather, 24 hours weather forecast and 8-day weather forecast
+
+Please feel free to contact me if there is any problem, thanks

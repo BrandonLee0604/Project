@@ -1,0 +1,65 @@
+@import "css/weather-icons-wind.css";
+@import "css/weather-icons.css";
+
+.ui-container {
+    padding: 10px;
+    background: #e0edfd;
+    font-family: Arial, sans-serif !important;
+}
+
+.weather-icon {
+    display: inline-block;
+    margin: auto;
+    line-height: 50px;
+}
+
+.weather-icon img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.panel {
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+    background: white;
+}
+
+
+.current-temp {
+    height: 50px ;
+}
+
+.current-temp span {
+    font-size: 36px;
+    font-weight: 100;
+    vertical-align: middle;
+}
+
+.current-temp img {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.weather-items, .weather-desc {
+    display: block;
+    font-size: 17px;
+}
+
+.weather-items {
+    font-size: 14px;
+
+}
+
+.weather-items li {
+    list-style: none;
+    padding: 0 10px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.grid {
+    margin: auto;
+}
