@@ -1,23 +1,14 @@
-import React from 'react';
-import { Layout } from 'antd';
-const { Header, Footer, Sider, Content } = Layout;
-// import ReactDOM from 'react-dom';
+import React, { Component } from 'react';
+import { Button } from 'antd';
 
-class App extends React.Component<any, any> {
-    render () {
-        return (
-            <div>
-                <Layout>
-                    <Sider>Sider</Sider>
-                    <Layout>
-                        <Header>Header</Header>
-                        <Content>Content</Content>
-                        <Footer>Footer</Footer>
-                    </Layout>
-                </Layout>
-            </div>
-        )
-    }
+class App extends Component {
+  render() {
+    return (
+        <div className="App">
+          <Button type="primary">Button</Button>
+        </div>
+    );
+  }
 }
 
 export default App;
