@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { Layout } from 'antd';
+import SiderMenu from "./SiderMenu";
+import TopHeader from "./TopHeader";
+import ContentComponent from "./ContentComponent";
+import '../index.css';
 const { Header, Footer, Sider, Content } = Layout;
 
 class App extends Component {
@@ -7,10 +11,16 @@ class App extends Component {
     return (
         <div className="App">
             <Layout>
-                <Sider>Sider</Sider>
+                <Sider>
+                    <SiderMenu />
+                </Sider>
                 <Layout>
-                    <Header>Header</Header>
-                    <Content>Content</Content>
+                    <Header>
+                        <TopHeader />
+                    </Header>
+                    <Content>
+                        <ContentComponent />
+                    </Content>
                     <Footer>Footer</Footer>
                 </Layout>
             </Layout>

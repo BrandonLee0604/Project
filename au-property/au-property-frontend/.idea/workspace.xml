@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3332329f-74fc-46ed-9108-2e6b3f3bee6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config-overrides.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eslintrc.js" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/au-property.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../au-property-backend/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../au-property-backend/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../au-property-backend/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../au-property-backend/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../au-property-backend/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../au-property-backend/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../au-property-backend/src/main/java/StartWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../au-property-backend/src/main/java/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/types.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContentComponent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MapInfo/MyMapComponent/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MapInfo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SiderMenu/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TopHeader/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/files/nsw-lga-boundaries.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../test/.idea/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/apis/mapAPI.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,21 +55,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Software Project/Project/weather",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "D:\\Software Project\\Project\\au-property\\au-property-frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Software Project/Project/weather&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Software Project\\Project\\au-property\\au-property-frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Software Project\Project\au-property\au-property-frontend\src\files" />
       <recent name="D:\Software Project\Project\au-property\au-property-frontend\src\components" />
     </key>
   </component>
@@ -68,6 +83,26 @@
       <option name="presentableId" value="Default" />
       <updated>1658133374220</updated>
       <workItem from="1658133384948" duration="4224000" />
+      <workItem from="1658231852949" duration="3898000" />
+      <workItem from="1658629990622" duration="1171000" />
+      <workItem from="1659008777055" duration="3262000" />
+      <workItem from="1659076833379" duration="771000" />
+      <workItem from="1659241665157" duration="10351000" />
+      <workItem from="1659355211084" duration="4601000" />
+      <workItem from="1659601521705" duration="2316000" />
+      <workItem from="1659767064935" duration="5631000" />
+      <workItem from="1660355317166" duration="630000" />
+      <workItem from="1660356370116" duration="14724000" />
+      <workItem from="1660550946654" duration="9562000" />
+      <workItem from="1660653201608" duration="209000" />
+      <workItem from="1660653445250" duration="3360000" />
+      <workItem from="1660722237902" duration="3218000" />
+      <workItem from="1661050778352" duration="7192000" />
+      <workItem from="1661565495685" duration="5079000" />
+      <workItem from="1661675773036" duration="4384000" />
+      <workItem from="1664710352023" duration="621000" />
+      <workItem from="1665217944985" duration="595000" />
+      <workItem from="1665573090064" duration="18243000" />
     </task>
     <servers />
   </component>
